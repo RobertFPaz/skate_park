@@ -1,0 +1,52 @@
+.landing-container{
+    height: 95vh;
+}
+.landing{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/sunset-skate.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-color: rgb(247, 125, 3);
+    background-attachment: fixed;
+    height: 100%;
+}
+.landing-heading{
+    text-shadow: 3px 3px 5px black,
+                5px 5px 7px rgb(247, 125, 3),
+                7px 7px 9px rgb(251, 247, 4);
+    letter-spacing: 0.1em;
+    font-size: 70px;
+    font-family: 'sedgwick ave display', cursive;
+}
+@media only screen and (min-width: 576px){
+    .landing-heading{
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .landing{
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url(images/sunset-skate4.png);
+    }
+    .landing-heading{
+        font-size: 7em;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .landing-heading{
+        font-size: 10em;
+    }
+}
+.figure:hover{
+    box-shadow: 3px 3px 5px rgb(247, 125, 3);
+}
+.figure-caption{
+    color: black;
+}
+.form-button{
+    background-color: rgb(33,37,41);
+}
+.form-button:hover{
+    background-color: rgb(247, 125, 3);
+}
